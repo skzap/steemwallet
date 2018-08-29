@@ -14,6 +14,13 @@
   - Optional use of Touch ID / Face ID for retrieving your passphrase
   - Forced creation of a difficult passphrase including cracktime hints, should you want to use the AES 256 encrypted storage.
 
+# Build instructions
+  - Download & install Appcelerator CLI (you need nodejs for that): https://wiki.appcelerator.org/display/guides2/Appcelerator+CLI+Getting+Started
+  - Have the sdk's for Android and/or IOS on your device
+  - Git clone this repo
+  - `appc run -p (ios|android)`
+
+
 # This app uses the following libraries / software
   - Build on [Axway Titanium Appcelerator](https://github.com/appcelerator/titanium_mobile) for crossplatform native compiled apps
   - Dsteem for steem key related functions: https://github.com/steemit/dsteem
@@ -33,5 +40,13 @@ I specifically envision keeping the app lightweight. I certainly don't intend to
 
 If you want to help, and want the app in your native language, feel free to help translate!
 please explore the app thoroughly and check the [app/i18n/en/strings.xml](app/i18n/en/strings.xml) translation file, make a copy and translate all the texts. Whenever the %1$s or %2$s (etc etc) is used in that file it is the place of a variable, which should be quite obvious. (E.g. strings like: *Can't find account "%1$s"* - would obviously have the account name filled in at %1$s)  
+
+#### Translations already done
+
+| language 	| github user 	| steem user                                    	|
+|----------	|-------------	|-----------------------------------------------	|
+| DE       	| @pharesim   	| [pharesim](https://steemit.com/@pharesim)     	|
+| ES       	| @tashidelek 	| [tashidelek](https://steemit.com/@tashidelek) 	|
+| FR       	| @helo     	  | [helo](https://steemit.com/@helo)             	|
 
 Cheers, [@roelandp](https://steemit.com/@roelandp)
